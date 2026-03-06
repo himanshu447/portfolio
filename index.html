@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himanshu | Sr. Software Engineer | Flutter & Android Expert</title>
+    <meta name="description"
+        content="Portfolio of Himanshu, a seasoned Flutter and Android developer with 7 years of experience in building high-performance, scalable mobile apps.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body class="dark-theme">
+    <div class="scroll-progress" id="scroll-progress"></div>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Himanshu</a>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#blog" class="nav-link">Blog</a></li>
+                <li><a href="#contact" class="nav-link nav-cta">Contact Me</a></li>
+            </ul>
+            <div class="mobile-menu-btn">
+                <i data-lucide="menu"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <!-- Floating Tech Particles -->
+        <div class="tech-particles">
+            <i data-lucide="smartphone" class="particle p-1"></i>
+            <i data-lucide="command" class="particle p-2"></i>
+            <i data-lucide="cpu" class="particle p-3"></i>
+            <i data-lucide="database" class="particle p-4"></i>
+            <i data-lucide="code" class="particle p-5"></i>
+            <i data-lucide="layers" class="particle p-6"></i>
+        </div>
+
+        <div class="hero-content full-width">
+            <div class="hero-text-content">
+                <div data-tilt data-tilt-max="5" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.1">
+                    <span class="greeting-badge">Hi there, I'm</span>
+                    <h1 class="hero-name glow-text">Himanshu</h1>
+                    <h2 class="hero-title">Senior Software Engineer</h2>
+                    <p class="hero-subtitle">
+                        A seasoned <strong style="color: var(--accent-color);">Flutter and Android developer</strong>
+                        with 7 years of experience building high-performance, scalable mobile apps. I specialize in
+                        cross-platform development with Flutter and native Android using Kotlin.
+                    </p>
+                </div>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+                <div class="hero-socials">
+                    <a href="mailto:himanshu.gandhi447@gmail.com" title="Email"><i data-lucide="mail"></i></a>
+                    <a href="https://www.linkedin.com/in/himanshu-gandhi-~-mobile-developer-5a5265128/" target="_blank"
+                        title="LinkedIn"><i data-lucide="linkedin"></i></a>
+                    <a href="https://github.com/himanshu447" target="_blank" title="GitHub"><i
+                            data-lucide="github"></i></a>
+                    <a href="tel:7621964990" title="Phone"><i data-lucide="phone"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#about" class="scroll-indicator">
+            <div class="mouse"></div>
+            <span>Scroll Down</span>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Profile</span>
+                <h2 class="section-title">About Me</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-text">
+                    <p class="lead">
+                        I deliver robust, maintainable solutions that enhance user experiences. Specializing in
+                        cross-platform development with Flutter and native Android using Kotlin, I focus on building
+                        high-performance and scalable mobile applications.
+                    </p>
+                    <p>
+                        Proficient in responsive UI development, API integrations, Firebase, background services, local
+                        databases, and CI/CD using GitHub Actions. Experienced with state management solutions like
+                        Bloc, MobX, Provider, and GetX, I consistently write reliable, maintainable code.
+                    </p>
+                    <p>
+                        I focus on unit & widget testing for code reliability, optimize app performance, and ensure
+                        smooth functionality across devices. With a strong grasp of the mobile development lifecycle, I
+                        maintain high-quality code that provides a seamless user experience.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">7+</span>
+                            <span class="stat-label">Years of Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">20+</span>
+                            <span class="stat-label">Projects Delivered</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Major Frameworks</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-skills-cards">
+                    <div class="skill-summary-card">
+                        <i data-lucide="smartphone"></i>
+                        <h3>Mobile Specialist</h3>
+                        <p>Expert in Flutter, Android (Kotlin), and iOS (Swift/Objective-C).</p>
+                    </div>
+                    <div class="skill-summary-card">
+                        <i data-lucide="layers"></i>
+                        <h3>Architecture</h3>
+                        <p>Specialist in Clean Architecture, MVVM, and TDD approaches.</p>
+                    </div>
+                    <div class="skill-summary-card">
+                        <i data-lucide="cloud-lightning"></i>
+                        <h3>CI/CD & Testing</h3>
+                        <p>Fully automated GitHub Actions pipelines with Jest unit tests and Playwright browser testing.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Expertise</span>
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="skills-card-grid">
+                <!-- Flutter -->
+                <div class="skill-card" data-color="flutter">
+                    <div class="skill-card-icon">
+                        <img src="https://cdn.simpleicons.org/flutter/02569B" alt="Flutter">
+                    </div>
+                    <div class="skill-card-name">Flutter</div>
+                    <div class="skill-card-progress-container">
+                        <div class="skill-card-progress-bar bar-animate" data-width="95%"></div>
+                    </div>
+                    <div class="skill-card-percentage">95%</div>
+                </div>
+
+                <!-- Android -->
+                <div class="skill-card" data-color="android">
+                    <div class="skill-card-icon">
+                        <img src="https://cdn.simpleicons.org/android/3DDC84" alt="Android">
+                    </div>
+                    <div class="skill-card-name">Android</div>
+                    <div class="skill-card-progress-container">
+                        <div class="skill-card-progress-bar bar-animate" data-width="90%"></div>
+                    </div>
+                    <div class="skill-card-percentage">90%</div>
+                </div>
+
+                <!-- Kotlin -->
+                <div class="skill-card" data-color="kotlin">
+                    <div class="skill-card-icon">
+                        <img src="https://cdn.simpleicons.org/kotlin/7F52FF" alt="Kotlin">
+                    </div>
+                    <div class="skill-card-name">Kotlin</div>
+                    <div class="skill-card-progress-container">
+                        <div class="skill-card-progress-bar bar-animate" data-width="85%"></div>
+                    </div>
+                    <div class="skill-card-percentage">85%</div>
+                </div>
+
+                <!-- Dart -->
+                <div class="skill-card" data-color="dart">
+                    <div class="skill-card-icon">
+                        <img src="https://cdn.simpleicons.org/dart/0175C2" alt="Dart">
+                    </div>
+                    <div class="skill-card-name">Dart</div>
+                    <div class="skill-card-progress-container">
+                        <div class="skill-card-progress-bar bar-animate" data-width="90%"></div>
+                    </div>
+                    <div class="skill-card-percentage">90%</div>
+                </div>
+
+                <!-- Firebase -->
+                <div class="skill-card" data-color="firebase">
+                    <div class="skill-card-icon">
+                        <img src="https://cdn.simpleicons.org/firebase/FFCA28" alt="Firebase">
+                    </div>
+                    <div class="skill-card-name">Firebase</div>
+                    <div class="skill-card-progress-container">
+                        <div class="skill-card-progress-bar bar-animate" data-width="90%"></div>
+                    </div>
+                    <div class="skill-card-percentage">90%</div>
+                </div>
+
+                <!-- Node.js -->
+                <div class="skill-card" data-color="node">
+                    <div class="skill-card-icon">
+                        <img src="https://cdn.simpleicons.org/nodedotjs/339933" alt="Node.js">
+                    </div>
+                    <div class="skill-card-name">Node.js</div>
+                    <div class="skill-card-progress-container">
+                        <div class="skill-card-progress-bar bar-animate" data-width="80%"></div>
+                    </div>
+                    <div class="skill-card-percentage">80%</div>
+                </div>
+
+                <!-- Git -->
+                <div class="skill-card" data-color="git">
+                    <div class="skill-card-icon">
+                        <img src="https://cdn.simpleicons.org/git/F05032" alt="Git">
+                    </div>
+                    <div class="skill-card-name">Git</div>
+                    <div class="skill-card-progress-container">
+                        <div class="skill-card-progress-bar bar-animate" data-width="85%"></div>
+                    </div>
+                    <div class="skill-card-percentage">85%</div>
+                </div>
+
+                <!-- Clean Architecture -->
+                <div class="skill-card">
+                    <div class="skill-card-icon"><i data-lucide="layers" size="40"></i></div>
+                    <div class="skill-card-name">Clean Arch</div>
+                    <div class="skill-card-progress-container">
+                        <div class="skill-card-progress-bar bar-animate" data-width="90%"></div>
+                    </div>
+                    <div class="skill-card-percentage">90%</div>
+                </div>
+
+                <!-- SQLite -->
+                <div class="skill-card">
+                    <div class="skill-card-icon">
+                        <img src="https://cdn.simpleicons.org/sqlite/003B57" alt="SQLite">
+                    </div>
+                    <div class="skill-card-name">SQLite</div>
+                    <div class="skill-card-progress-container">
+                        <div class="skill-card-progress-bar bar-animate" data-width="85%"></div>
+                    </div>
+                    <div class="skill-card-percentage">85%</div>
+                </div>
+
+                <!-- CI/CD -->
+                <div class="skill-card">
+                    <div class="skill-card-icon"><i data-lucide="terminal" size="40"></i></div>
+                    <div class="skill-card-name">CI/CD</div>
+                    <div class="skill-card-progress-container">
+                        <div class="skill-card-progress-bar bar-animate" data-width="85%"></div>
+                    </div>
+                    <div class="skill-card-percentage">85%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience section" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Career</span>
+                <h2 class="section-title">Professional Experience</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="timeline">
+                <!-- Simform -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Jan 2024 – May 2025</div>
+                    <div class="timeline-content">
+                        <h3>Sr. Software Engineer</h3>
+                        <h4>Simform Solutions | Ahmedabad</h4>
+                        <ul>
+                            <li>Lead development of Flutter applications using Clean Architecture principles, improving
+                                code maintainability and reducing production bugs by 30%.</li>
+                            <li>Conduct code reviews and implement quality assurance processes that decreased critical
+                                issues in production by 40%.</li>
+                            <li>Resolved complex bugs in open-source audio waveform package.</li>
+                            <li>Collaborate with cross-functional teams using Agile methodologies to deliver features
+                                20% faster than projected timelines.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Clarion -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Aug 2022 – Jan 2024</div>
+                    <div class="timeline-content">
+                        <h3>Sr. Software Engineer - L1</h3>
+                        <h4>Clarion Technologies | Pune</h4>
+                        <ul>
+                            <li>Implemented Test-Driven Development (TDD) in Flutter projects, increasing test coverage
+                                from 60% to 85%.</li>
+                            <li>Designed reusable architecture patterns adopted by 15+ team members, reducing
+                                development time by 25%.</li>
+                            <li>Enhanced team workflows by introducing reusable architecture patterns.</li>
+                            <li>Managed Agile workflows using Jira, consistently meeting 95% of sprint goals.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Crest -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Aug 2021 – Aug 2022</div>
+                    <div class="timeline-content">
+                        <h3>Software Engineer</h3>
+                        <h4>Crest Infosystems Pvt. Ltd | Surat</h4>
+                        <ul>
+                            <li>Communicated with clients to gather requirements and provide regular updates.</li>
+                            <li>Worked independently on full application modules and standalone features.</li>
+                            <li>Applied clean architecture for scalable and maintainable code.</li>
+                            <li>Improved memory management and performance through code optimization.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Knoxpo -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Apr 2018 – Aug 2021</div>
+                    <div class="timeline-content">
+                        <h3>Software Engineer</h3>
+                        <h4>Knoxpo Solutions Private Limited | Surat</h4>
+                        <ul>
+                            <li>Translated business needs into functional mobile app solutions with high performance.
+                            </li>
+                            <li>Maintained and optimized Algolia integrations for enhanced in-app search experience.
+                            </li>
+                            <li>Followed best coding practices, contributing to codebase maintainability and team
+                                standards.</li>
+                            <li>Interacted regularly with clients to ensure alignment between product goals and
+                                technical direction.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Portfolio</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="projects-grid">
+                <!-- PatronTip -->
+                <div class="project-card">
+                    <div class="project-image-placeholder">
+                        <img src="patron-tip-icon.jpg" alt="PatronTip Icon" class="project-app-icon">
+                    </div>
+                    <div class="project-info">
+                        <h3>PatronTip</h3>
+                        <p>Mobile-first tipping platform for workers and businesses. Supports ACH/Debit payouts and Tap
+                            to Pay on phones.</p>
+                        <div class="project-tags">
+                            <span>Flutter</span><span>MobX</span><span>Tap to Pay</span><span>In-App Purchase</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Silal -->
+                <div class="project-card">
+                    <div class="project-image-placeholder">
+                        <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cb/6c/b5/cb6cb51c-a872-196d-1032-8d6a93b159ee/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg"
+                            alt="Silal Icon" class="project-app-icon">
+                    </div>
+                    <div class="project-info">
+                        <h3>Silal</h3>
+                        <p>Direct communication platform connecting farmers with SILAL for service requests and
+                            knowledge sharing.</p>
+                        <div class="project-tags">
+                            <span>Flutter</span><span>BLoC</span><span>Clean Architecture</span><span>SQLite</span>
+                        </div>
+                        <div class="project-store-links">
+                            <a href="https://apps.apple.com/in/app/silal-%D8%B3%D9%84%D8%A4/id1631016086"
+                                target="_blank" class="store-link" title="App Store"><i data-lucide="apple"></i></a>
+                            <a href="https://play.google.com/store/apps/details?id=ae.silal.fms" target="_blank"
+                                class="store-link" title="Play Store"><i data-lucide="play"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vital EVV -->
+                <div class="project-card">
+                    <div class="project-image-placeholder">
+                        <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/14/89/07/148907fc-f69d-380d-3b2f-13fb977fd6f4/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg"
+                            alt="Vital EVV Icon" class="project-app-icon">
+                    </div>
+                    <div class="project-info">
+                        <h3>Vital EVV</h3>
+                        <p>Simplifies visit verification for Home Health Care providers using GPS and encrypted data
+                            fetching.</p>
+                        <div class="project-tags">
+                            <span>GPS Tracking</span><span>AES
+                                Encryption</span><span>WebSocket</span><span>Codemagic</span>
+                        </div>
+                        <div class="project-store-links">
+                            <a href="https://apps.apple.com/in/app/vital-evv/id6449031053" target="_blank"
+                                class="store-link" title="App Store"><i data-lucide="apple"></i></a>
+                            <a href="https://play.google.com/store/apps/details?id=com.com.vitalevv" target="_blank"
+                                class="store-link" title="Play Store"><i data-lucide="play"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- GoGirl -->
+                <div class="project-card">
+                    <div class="project-image-placeholder">
+                        <img src="gogirl-icon.jpg" alt="GoGirl Icon" class="project-app-icon">
+                    </div>
+                    <div class="project-info">
+                        <h3>GoGirl</h3>
+                        <p>Safe social media for children with parent-verified accounts and content reporting systems.
+                        </p>
+                        <div class="project-tags">
+                            <span>GetX</span><span>RxDart</span><span>Parental Verification</span><span>Unit Test</span>
+                        </div>
+                        <div class="project-store-links">
+                            <a href="https://apps.apple.com/us/app/the-go-girl-app/id6447447423" target="_blank"
+                                class="store-link" title="App Store"><i data-lucide="apple"></i></a>
+                            <a href="https://play.google.com/store/apps/details?id=com.gogirlapp.gogirl" target="_blank"
+                                class="store-link" title="Play Store"><i data-lucide="play"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Treasure Game -->
+                <div class="project-card">
+                    <div class="project-image-placeholder">
+                        <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8e/5f/ed/8e5fed9e-7fc7-5eee-97a2-e5589c06f657/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+                            alt="Treasure Games Icon" class="project-app-icon">
+                    </div>
+                    <div class="project-info">
+                        <h3>Treasure Game$</h3>
+                        <p>Live treasure hunts with cash prizes. Features compass, barometer, and location-based rules.
+                        </p>
+                        <div class="project-tags">
+                            <span>Compass/Barometer</span><span>Subscription</span><span>Provider</span>
+                        </div>
+                        <div class="project-store-links">
+                            <a href="https://apps.apple.com/us/app/treasure-game%24/id6452119815" target="_blank"
+                                class="store-link" title="App Store"><i data-lucide="apple"></i></a>
+                            <a href="https://play.google.com/store/apps/details?id=com.treasuregames&hl=en_IN"
+                                target="_blank" class="store-link" title="Play Store"><i data-lucide="play"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Streaky -->
+                <div class="project-card">
+                    <div class="project-image-placeholder">
+                        <i data-lucide="calendar-days" size="40"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Streaky</h3>
+                        <p>JEE success tool with personalized revision lists based on the Ebbinghaus Forgetting Curve.
+                        </p>
+                        <div class="project-tags">
+                            <span>Study Tracker</span><span>Calendar</span><span>GetX</span><span>Real-time Chat</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- LiveStock-Pro -->
+                <div class="project-card">
+                    <div class="project-image-placeholder">
+                        <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cc/6c/4b/cc6c4b0e-9be0-f327-e552-93b1a3f3184a/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+                            alt="AgriEID Icon" class="project-app-icon">
+                    </div>
+                    <div class="project-info">
+                        <h3>LiveStock-Pro (AgriEID)</h3>
+                        <p>Comprehensive cattle management with medical batches, weight tracking, and offline
+                            capabilities.</p>
+                        <div class="project-tags">
+                            <span>Offline Sync</span><span>Location Drawing</span><span>WebSocket</span><span>Clean
+                                Arch</span>
+                        </div>
+                        <div class="project-store-links">
+                            <a href="https://apps.apple.com/in/app/agrieid/id6444097641" target="_blank"
+                                class="store-link" title="App Store"><i data-lucide="apple"></i></a>
+                            <a href="https://play.google.com/store/apps/details?id=com.agrieid.app&pli=1"
+                                target="_blank" class="store-link" title="Play Store"><i data-lucide="play"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Me-Social -->
+                <div class="project-card">
+                    <div class="project-image-placeholder">
+                        <i data-lucide="share-2" size="40"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Me-Social</h3>
+                        <p>Feature-rich social media app for post creation, newsfeeds, and real-time community
+                            engagement.</p>
+                        <div class="project-tags">
+                            <span>Social Media</span><span>Newsfeed</span><span>Chat</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Shy -->
+                <div class="project-card">
+                    <div class="project-image-placeholder">
+                        <img src="https://play-lh.googleusercontent.com/FqV1hZZr1HVoWqSc47ZIUuW92Z2WFjPpm-Y7iNNMjKbOjqh7yGGDXyNf4hM5ogLmKQ"
+                            alt="Shy App Icon" class="project-app-icon">
+                    </div>
+                    <div class="project-info">
+                        <h3>Shy</h3>
+                        <p>Location-based dating app with friend requests, chat, and Algolia-powered search.</p>
+                        <div class="project-tags">
+                            <span>Location Dating</span><span>Algolia</span><span>Real-time Chat</span>
+                        </div>
+                        <div class="project-store-links">
+                            <a href="https://apps.apple.com/in/app/shy/id6444877711" target="_blank" class="store-link"
+                                title="App Store"><i data-lucide="apple"></i></a>
+                            <a href="https://play.google.com/store/apps/details?id=com.shyapp" target="_blank"
+                                class="store-link" title="Play Store"><i data-lucide="play"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Astrokanu -->
+                <div class="project-card">
+                    <div class="project-image-placeholder">
+                        <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/64/43/d5/6443d5ef-6ecc-0589-50b2-feec770ad6eb/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+                            alt="Astrokanu Icon" class="project-app-icon">
+                    </div>
+                    <div class="project-info">
+                        <h3>Elevate by Astro Kanu</h3>
+                        <p>Your companion for conscious living, where ancient wisdom meets modern awareness. Created by
+                            globally-known Vedic astrologer Astro Kanu, featuring transformative tools and the world’s
+                            first Conscious AI Guide, Satya.</p>
+                        <div class="project-tags">
+                            <span>Spiritual Wellness</span><span>AI Guide</span><span>Vedic Astrology</span>
+                        </div>
+                        <div class="project-store-links">
+                            <a href="https://apps.apple.com/in/app/elevate-by-astro-kanu/id6745242342" target="_blank"
+                                class="store-link" title="App Store"><i data-lucide="apple"></i></a>
+                            <a href="https://play.google.com/store/apps/details?id=com.astrokanu.elevate"
+                                target="_blank" class="store-link" title="Play Store"><i data-lucide="play"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Achievements -->
+    <section class="education section" id="education">
+        <div class="container">
+            <div class="education-achievements-grid">
+                <div class="education-block">
+                    <div class="section-header header-left">
+                        <span class="section-badge">Timeline</span>
+                        <h2 class="section-title">Education</h2>
+                    </div>
+                    <div class="edu-items">
+                        <div class="edu-item">
+                            <h3>MCA, MIT-SOM College</h3>
+                            <p>87% | Jun 2015 – Apr 2018 | Pune, India</p>
+                        </div>
+                        <div class="edu-item">
+                            <h3>BCA, C.B. Patel Computer College</h3>
+                            <p>77% | Jul 2012 – Feb 2015 | Surat, India</p>
+                        </div>
+                        <div class="edu-item">
+                            <h3>HSC, T. & T. V. Sarvajanik High School</h3>
+                            <p>69% | Mar 2011 – Mar 2012</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="achievements-block">
+                    <div class="section-header header-left">
+                        <span class="section-badge">Success</span>
+                        <h2 class="section-title">Achievements</h2>
+                    </div>
+                    <div class="achievement-card">
+                        <i data-lucide="award" class="award-icon"></i>
+                        <div class="achievement-text">
+                            <h3>Third Rank in M.C.A</h3>
+                            <p>Secured third rank in M.C.A first year and second year consecutively at MIT-SOM College.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <!-- Blog Section -->
+    <section class="blog section" id="blog">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Insights</span>
+                <h2 class="section-title">Technical Blog</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="blog-grid">
+                <!-- Medium Article -->
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=800&auto=format&fit=crop"
+                            alt="Code Background">
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date">Oct 2023 · Simform Engineering</span>
+                        <h3 class="blog-title">Dependency Injection with Injectable: Boosting Performance & Scalability
+                        </h3>
+                        <p class="blog-snippet">
+                            Explore how the 'injectable' package in Flutter simplifies dependency injection, enhances
+                            scalability, and keeps your codebase clean and testable.
+                        </p>
+                        <a href="https://medium.com/simform-engineering/dependency-injection-with-injectable-boosting-your-apps-performance-scalability-27e1d4dd7bae"
+                            target="_blank" class="blog-link">
+                            Read on Medium <i data-lucide="external-link" size="16"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Placeholder Blog -->
+                <article class="blog-card" style="opacity: 0.7;">
+                    <div class="blog-image"
+                        style="background: var(--bg-tertiary); display: flex; align-items: center; justify-content: center;">
+                        <i data-lucide="edit-3" size="48" style="color: var(--accent-color);"></i>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date">Upcoming Presentation</span>
+                        <h3 class="blog-title">Clean Architecture in Flutter: Best Practices</h3>
+                        <p class="blog-snippet">
+                            A roadmap for building maintainable and scalable Flutter applications using Clean
+                            Architecture principles and SOLID design.
+                        </p>
+                        <span class="blog-link">Stay tuned...</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="contact-card">
+                <div class="contact-header">
+                    <h2>Get In Touch</h2>
+                    <p>Interested in working together? Let's talk about your next project.</p>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <a href="mailto:himanshu.gandhi447@gmail.com" class="contact-item">
+                            <i data-lucide="mail"></i>
+                            <div>
+                                <span>Email Me</span>
+                                <p>himanshu.gandhi447@gmail.com</p>
+                            </div>
+                        </a>
+                        <a href="tel:7621964990" class="contact-item">
+                            <i data-lucide="phone"></i>
+                            <div>
+                                <span>Call Me</span>
+                                <p>+91 7621964990</p>
+                            </div>
+                        </a>
+                        <div class="contact-item">
+                            <i data-lucide="map-pin"></i>
+                            <div>
+                                <span>Location</span>
+                                <p>India</p>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-row">
+                            <input type="text" placeholder="Your Name" required>
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <input type="text" placeholder="Subject">
+                        <textarea placeholder="Your Message" rows="5"></textarea>
+                        <button type="submit" class="btn btn-primary full-width">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Himanshu</div>
+                <p>&copy; 2025 Himanshu. Built with Passion & Flutter Focus.</p>
+                <div class="footer-socials">
+                    <a href="https://www.linkedin.com/in/himanshu-gandhi-~-mobile-developer-5a5265128/"
+                        target="_blank"><i data-lucide="linkedin"></i></a>
+                    <a href="https://github.com/himanshu447" target="_blank"><i data-lucide="github"></i></a>
+                    <a href="#"><i data-lucide="twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Vanilla Tilt for 3D Cards -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
