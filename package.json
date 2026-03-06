@@ -8,7 +8,7 @@
     "lint": "npm run lint:js && npm run lint:css",
     "test": "jest",
     "test:ui": "playwright test",
-    "build": "mkdir -p dist && cp index.html style.css script.js hero-bg.png dist/"
+    "build": "mkdir -p public && cp -r index.html style.css script.js *.png *.jpg public/"
   },
   "keywords": [],
   "author": "",
